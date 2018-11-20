@@ -15,7 +15,7 @@ using System.Windows.Forms;
 
 namespace NmeaEmulator
 {
-    public partial class Form1 : Form
+    public partial class FormNmeaEmu : Form
     {
 
         /*
@@ -27,7 +27,7 @@ namespace NmeaEmulator
          */
 
 
-        public Form1()
+        public FormNmeaEmu()
         {
             InitializeComponent();
 

@@ -13,11 +13,11 @@ using System.Windows.Forms;
 
 namespace AsyncSerialTest2
 {
-    public partial class Form1 : Form
+    public partial class FormAsyncSerialTest : Form
     {
         private string HostSerialPort = "COM4"; //Hold this here so that we don't have to set each time we debug 
 
-        public Form1()
+        public FormAsyncSerialTest()
         {
             InitializeComponent();
             string[] ports = SerialPort.GetPortNames();
